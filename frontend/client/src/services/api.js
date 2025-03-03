@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:5000/api', // Backend API base URL
+    baseURL: 'https://dec-ca2.onrender.com/api', // Backend API base URL
 });
 
 export const fetchData = () => api.get('/fetch-data');
